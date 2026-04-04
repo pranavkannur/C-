@@ -1,5 +1,5 @@
 # C++
-## 1. Besic code 
+## 1. Basic code 
 ```
 #include <iostream> // import declaration
 
@@ -8,7 +8,7 @@ int main() {                                     // main function same as 'C '
     return 0;                                    // return 0  to end program
 }
 ```
-## 2. Besic Data types 
+## 2. Basic Data types 
 [refrec](https://www.geeksforgeeks.org/cpp/cpp-data-types/)
 
 ### 1. Int  (whole numbers)
