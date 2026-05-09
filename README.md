@@ -9,6 +9,7 @@ My personal C++ cheat sheets. No fluff, just code-focused notes to get things do
 3. **[03_control_flow.md](./C++/03_control_flow.md)**: If/Else, Switch, and Loops.
 4. **[04_functions_io.md](./C++/04_functions_io.md)**: Input/Output, pass-by-reference, and overloading.
 5. **[05_extras.md](./C++/05_extras.md)**: Escape sequences, namespaces, and string methods.
+6. **[06_oop_concepts.md](./C++/06_oop_concepts.md)**: Classes, Objects, Inheritance, and Polymorphism.
 
 ---
 

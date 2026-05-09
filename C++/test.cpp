@@ -1,32 +1,16 @@
 #include <iostream>
-
-bool isPowerOfThree(int n) {
-    if (n == 1) {
-        return true;
-    }
-    if (n < 1) {
-        return false;
-    }
-    if (n % 3 == 0) {
-        return isPowerOfThree(n / 3);
-    } else {
-        return false;
-    }
+using namespace std;
+int forLoop(int low, int high) {
+        // Optimized using arithmetic series formula: sum = n*(n+1)/2
+        // Sum from low to high = sum(1 to high) - sum(1 to low-1)
+        long long sum_high = (long long)high * (high + 1) / 2;
+        long long sum_low_minus_1 = (low - 1LL) * low / 2;
+        return sum_high - sum_low_minus_1;
 }
-
 int main() {
-    int test_cases[] = {27, 1, 3, 9, 0, 2, 12, -3};
-    int num_tests = sizeof(test_cases) / sizeof(test_cases[0]);
-
-    std::cout << "--- Testing isPowerOfThree function ---\n";
-    for (int i = 0; i < num_tests; ++i) {
-        int n = test_cases[i];
-        if (isPowerOfThree(n)) {
-            std::cout << n << " is a power of three. (True)\n";
-        } else {
-            std::cout << n << " is NOT a power of three. (False)\n";
-        }
-    }
-
+    
+    
+    cout << forLoop(1, 5) << endl;
+    cout << forLoop(3, 7) << endl;
     return 0;
 }
