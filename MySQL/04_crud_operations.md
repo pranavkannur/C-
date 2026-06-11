@@ -12,7 +12,7 @@ VALUES ('Pranav', 8.3);
 ```sql
 INSERT INTO students (name, gpa)
 VALUES 
-    ('Nik', 7.5),
+    ('Nik', 9.45),
     ('Sam', 9.0);
 ```
 
